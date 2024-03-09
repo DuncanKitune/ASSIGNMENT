@@ -5,9 +5,29 @@
 <html lang="en"></html>
 <head>
     <title>Image Links
+        <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
           </title>
+          <style>
+            /* CSS for image container */
+            .image-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                grid-gap: 10px;
+            }
+            /* CSS for images */
+            .image-grid img {
+              width: 100%;
+              height: auto;
+            }
+            /* CSS for image captions */
+            .image-caption {
+                font-size: 14px;
+                color: #666;
+            }
+        </style>
 </head>
 <body>
+    
     <h1>IMAGE LINKS</h1>
 <nav>
     <ul>
@@ -15,7 +35,19 @@
         <li><a href="#Gallery">Gallery</a></li>
         <li><a href="#Menu">Menu</a></li>
         </ul>
-        </nav>
+        
+        <div class = "image-container">
+        <img src ="Nature2.jpg" alt="Nature" class="gallery-image"><div class="image-caption">Beatiful Nature</div>
+        </div>
+        
+        <div class = "image-container">
+        <img src ="Food.jpg" alt="Food"class="gallery-image"><div class="image-caption">Delicious Food</div>
+        </div>
+        
+        <div class = "image-container"></div>
+        <img src ="Technology1.jpg" alt="Technology" class="gallery-image"><div class="image-caption">Modern Technology</div>
+        </div>
+ </nav>
 
 <section id =Home>
     <h2>Home</h2> 
@@ -25,31 +57,94 @@
     Below are some of the tribes we have explored;
     <ul>
         <li>Kamba</li>
-        <li>Kalenjin</li>
+        <li>Somali</li>
         <li>Kikuyu</li>
-        <li>Kisii</li>
+        <li>Modern</li>
         <li>Swahili</li>
         <li>Luo</li>
+        
     </ul>
    Our modern technology has played a major role in helping us compile the works.
-<img alt="Todays technology">
+   <br>
+        <p>Please visit our gallery for mouth watering photos of the delicios food options in the country
+                    
+        </p>
+   <br>
+<img src= "Technology2.jpg" alt= "Todays technology">
 </p>
    
 <section id =Gallery>
     <h2>Gallery</h2> 
-<p>
-    Check out a few pics below for what we have put together. Thankyou.
-    <img alt="Kamba Foods">
-    <img alt="Kalenjin Foods">
-    <img alt="Kikuyu Foods">
-    <img alt="Kisii Foods">
-    <img alt="Swahili Foods">
-    <img alt="Luo Foods">
+
+<p>Check below some nature scenes from our country Kenya
+
+    <div class = "image-container"></div>
+        <img src ="Nature 3.jpg" alt="Kamba Foods" class="gallery-image"><div class="image-caption">Nature</div> 
+        <a href="https://www.pinterest.com/search/pins/?q=nature&rs=typed">For more photos please check click here</a>
+        
+        <img src ="Nature.jpg" alt="Kamba Foods" class="gallery-image"><div class="image-caption">Nature</div>
+        <a href="https://www.pinterest.com/search/pins/?q=nature&rs=typed">For more photos please check click here</a>
+        
+        <img src ="Nature2.jpg" alt="Kamba Foods" class="gallery-image"><div class="image-caption">Nature2</div>
+        <a href="https://www.pinterest.com/search/pins/?q=nature&rs=typed">For more photos please check click here</a>
+    </div>
 </p>
 
 <section id = Menu>
     <h2>Menu</h2>
 <p>
-
+    Below is alist Food menus you can find described as per tribe and also included is a modern foods adopted from Western and asian countires. Thankyou.
+    <br>
+    <h3>Kamba Foods</h3>
+    <div class = "image-container"></div>
+        <img src ="Kamba.jpg" alt="Kamba Foods" class="gallery-image"><div class="image-caption">Chicken Fry</div>
+        <img src ="Kamba2.jpg" alt="Kamba Foods" class="gallery-image"><div class="image-caption">Greens & Chicken</div>
+        <img src ="Kamba4.jpg" alt="Kamba Foods" class="gallery-image"><div class="image-caption">Rice & Chicken</div>
+        <img src ="Kamba5.jpg" alt="Kamba Foods" class="gallery-image"><div class="image-caption">Nyama Choma</div>
+        <a href="https://www.pinterest.com/pin/440860251034490225/">For more photos please check click here</a>
+        </div>
+      <br>
+      <h3>Somali Foods</h3>  
+      <div class = "image-container"></div>
+        <img src ="Somali.jpg" alt="Somali Foods" class="gallery-image"><div class="image-caption">Muttock & Spaghetti</div>
+        <img src ="Somali2.jpg" alt="Somali Foods" class="gallery-image"><div class="image-caption">Anjera</div>
+        <img src ="Somali3.jpg" alt="Somali Foods" class="gallery-image"><div class="image-caption">Mixed Spaghetti & beef</div>
+        <img src ="Somali4.jpg" alt="Somali Foods" class="gallery-image"><div class="image-caption">Event serving</div>
+        <a href="https://www.pinterest.com/pin/440860251034490225/">For more photos please check click here</a>
+        <br>
+        <h3>Kikuyu Foods</h3>  
+      <div class = "image-container"></div>
+        <img src ="Kikuyu.jpg" alt="Kikuyu Foods" class="gallery-image"><div class="image-caption">Wedding</div>
+        <img src ="Kikuyu1.jpg" alt="Kikuyu Foods" class="gallery-image"><div class="image-caption">Chicken Fry</div>
+        <img src ="Kikuyu2.jpg" alt="Kikuyu Foods" class="gallery-image"><div class="image-caption">Ugali & Liver</div>
+        <img src ="Kikuyu3.jpg" alt="Kikuyu Foods" class="gallery-image"><div class="image-caption">Sweet Potatoes, Mukimo, etc</div>
+        <a href="https://www.pinterest.com/pin/440860251034490225/">For more photos please check click here</a>
+        <br>
+        
+        <h3>Modern Foods</h3>
+        <div class = "image-container"></div>
+        <img src ="Modern1.jpg" alt="Modern Foods" class="gallery-image"><div class="image-caption">Fish Fillet</div>
+        <img src ="Modern4.jpg" alt="Modern Foods" class="gallery-image"><div class="image-caption">Fish </div>
+        <img src ="Modern5.jpg" alt="Modern Foods"  class="gallery-image"><div class="image-caption">Chicken Drumsticks</div>
+        <img src ="Modern3.jpg" alt="Modern Foods"  class="gallery-image"><div class="image-caption">Beef & Chips</div>
+        <a href="https://www.pinterest.com/pin/440860251034490225/">For more photos please check click here</a>
+        <br>
+        <h3>Swahili Foods</h3>
+        <div class = "image-container"></div>
+        <img src ="Swahili.jpg" alt="Swahili Foods" class="gallery-image"><div class="image-caption">AViazi Karai</div>
+        <img src ="Swahili1.jpg" alt="Swahili Foods"  class="gallery-image"><div class="image-caption">Andazi/Maamri </div>
+        <img src ="Swahili2.jpg" alt="Swahili Foods"  class="gallery-image"><div class="image-caption">Coconut Fish</div>
+        <img src ="Swahili7.jpg" alt="Swahili Foods"   class="gallery-image"><div class="image-caption">Pilau</div>
+        <a href="https://www.pinterest.com/pin/440860251034490225/">For more photos please check click here</a>
+        <br>
+        <h3>Luo Foods</h3>
+        <div class = "image-container"></div>
+        <img src ="Luo.jpg" alt="Swahili Foods" class="gallery-image"><div class="image-caption">Fish</div>
+        <img src ="Luo2.jpg" alt="Swahili Foods"  class="gallery-image"><div class="image-caption">Omena & Kachumbari</div>
+        <img src ="Luo3.jpg" alt="Swahili Foods"  class="gallery-image"><div class="image-caption">Brown Ugali & Chicken</div>
+        <img src ="Luo4.jpg" alt="Swahili Foods"   class="gallery-image"><div class="image-caption">Beef Fry</div>
+        <a href="https://www.pinterest.com/pin/440860251034490225/">For more photos please check click here</a>
+        <br>
 </p>
+
 </body>
